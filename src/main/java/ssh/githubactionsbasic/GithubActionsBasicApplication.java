@@ -1,0 +1,13 @@
+package ssh.githubactionsbasic;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class GithubActionsBasicApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(GithubActionsBasicApplication.class, args);
+    }
+
+}
